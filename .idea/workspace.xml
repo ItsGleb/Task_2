@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f442ab0-8a82-4c8e-adc2-f8993a152ff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/config/EnvConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/config/EnvConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/steps/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +39,42 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PatchUserTests.patchUserFieldTestWithoutAuthorizationShouldBeUnsuccess">
-    <configuration name="LoginUserTests.unsuccessAuthorizationWithUnExistUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrdersTests.getAllOrdersTest">
+    <configuration name="OrdersTests.createOrderWithAuthorazedButWithoutIngredientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task_2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginUserTests" />
-      <option name="METHOD_NAME" value="unsuccessAuthorizationWithUnExistUser" />
+      <option name="MAIN_CLASS_NAME" value="OrdersTests" />
+      <option name="METHOD_NAME" value="createOrderWithAuthorazedButWithoutIngredientsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersTests.createOrderWithInvalidHashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrdersTests" />
+      <option name="METHOD_NAME" value="createOrderWithInvalidHashTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersTests.createOrderWithoutAuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrdersTests" />
+      <option name="METHOD_NAME" value="createOrderWithoutAuthorizationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersTests.getAllOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrdersTests" />
+      <option name="METHOD_NAME" value="getAllOrdersTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,43 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatchUserTests.patchUserFieldTestWithoutAuthorizationShouldBeUnsuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PatchUserTests" />
-      <option name="METHOD_NAME" value="patchUserFieldTestWithoutAuthorizationShouldBeUnsuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterUserTests.createTheSameUserShouldReturnErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegisterUserTests" />
-      <option name="METHOD_NAME" value="createTheSameUserShouldReturnErrorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterUserTests.createUserWithoutRequredFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegisterUserTests" />
-      <option name="METHOD_NAME" value="createUserWithoutRequredFieldTest(java.lang.String,java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PatchUserTests.patchUserFieldTestWithoutAuthorizationShouldBeUnsuccess" />
+        <item itemvalue="JUnit.OrdersTests.getAllOrdersTest" />
+        <item itemvalue="JUnit.OrdersTests.createOrderWithoutAuthorizationTest" />
+        <item itemvalue="JUnit.OrdersTests.createOrderWithInvalidHashTest" />
+        <item itemvalue="JUnit.OrdersTests.createOrderWithAuthorazedButWithoutIngredientsTest" />
         <item itemvalue="JUnit.PatchUserTests.patchUserFieldTestWithAuthorizationShouldBeSuccess" />
-        <item itemvalue="JUnit.LoginUserTests.unsuccessAuthorizationWithUnExistUser" />
-        <item itemvalue="JUnit.RegisterUserTests.createUserWithoutRequredFieldTest" />
-        <item itemvalue="JUnit.RegisterUserTests.createTheSameUserShouldReturnErrorTest" />
       </list>
     </recent_temporary>
   </component>
