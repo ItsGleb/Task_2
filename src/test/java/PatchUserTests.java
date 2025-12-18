@@ -104,7 +104,7 @@ public class PatchUserTests {
         SoftAssertions softly = new SoftAssertions();
         // Проверяем что статус-код = 200
         softly.assertThat(patchResponse.statusCode()).isEqualTo(HttpURLConnection.HTTP_OK);
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
     }
 

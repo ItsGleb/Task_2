@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f442ab0-8a82-4c8e-adc2-f8993a152ff6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/config/EnvConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/config/EnvConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/education_services/stellarburgers/steps/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +30,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/_YAP_rep/Task_3"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.OrdersTests.getAllOrdersTest">
     <configuration name="OrdersTests.createOrderWithAuthorazedButWithoutIngredientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task_2" />

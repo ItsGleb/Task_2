@@ -60,13 +60,9 @@ public class OrdersTests {
         SoftAssertions softly = new SoftAssertions();
         // Проверяем что статус-код = 200
         softly.assertThat(orderResponse.statusCode()).isEqualTo(HttpURLConnection.HTTP_OK);
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
-        /* Для проверки что получаю {"data":["61c0c5a71d1f82001bdaaa6d","61c0c5a71d1f82001bdaaa6f"]}
-        Gson gson = new Gson();
-        String olo = gson.toJson(ordersRequest);
-        System.out.println(olo);
-        */
+
     }
 
     @Test

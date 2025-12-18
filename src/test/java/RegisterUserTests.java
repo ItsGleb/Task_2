@@ -61,7 +61,7 @@ public class RegisterUserTests {
                 .isNotEmpty();
         softly.assertThat(response.jsonPath().getMap("user").get("email")).isEqualTo(registerRequest.getEmail());
         softly.assertThat(response.jsonPath().getMap("user").get("name")).isEqualTo(registerRequest.getName());
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
     }
 
@@ -90,7 +90,7 @@ public class RegisterUserTests {
         SoftAssertions softly = new SoftAssertions();
         // Проверяем что статус-код = 409, т.к. сущность пользователя была создана ранее
         softly.assertThat(responseWithTheSameUser.statusCode()).isEqualTo(HttpURLConnection.HTTP_CONFLICT);
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
     }
 
@@ -123,7 +123,7 @@ public class RegisterUserTests {
         SoftAssertions softly = new SoftAssertions();
         // Проверяем что статус-код = 400, т.к. сущность пользователя была создана ранее
         softly.assertThat(response.statusCode()).isEqualTo(HttpURLConnection.HTTP_BAD_REQUEST);
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
     }
 

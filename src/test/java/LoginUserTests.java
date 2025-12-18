@@ -68,7 +68,7 @@ public class LoginUserTests {
         softly.assertThat(response.jsonPath().getMap("user").get("email")).isEqualTo(loginRequest.getEmail());
         // Проверяем что name == name с которым пользователя создали
         softly.assertThat(response.jsonPath().getMap("user").get("name")).isEqualTo(registerRequest.getName());
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
     }
     @Test
@@ -93,7 +93,7 @@ public class LoginUserTests {
         SoftAssertions softly = new SoftAssertions();
         // Проверяем что статус-код = 401
         softly.assertThat(response.statusCode()).isEqualTo(HttpURLConnection.HTTP_UNAUTHORIZED);
-        // Нужно для того чтобы вывелась ошибка
+
         softly.assertAll();
     }
 
